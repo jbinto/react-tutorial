@@ -1,0 +1,4 @@
+[
+  { "author": "Jesse", "text": "This definitely is a comment." },
+  { "author": "billg", "text": "This is *another* comment. It &lt;justworks&gt;, **even with HTML**." }
+]
