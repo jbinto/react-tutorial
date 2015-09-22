@@ -7,7 +7,7 @@ React version is 0.13.3.
 ## Usage
 
 ```
-jsx --watch src/ build/
-python -m SimpleHTTPServer
-open http://localhost:8000/
+jsx --watch src/ public/
+ruby server.rb
+open http://localhost:3000/
 ```
