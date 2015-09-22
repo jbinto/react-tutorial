@@ -1,4 +1,22 @@
 [
-  { "author": "Jesse", "text": "This definitely is a comment." },
-  { "author": "billg", "text": "This is *another* comment. It &lt;justworks&gt;, **even with HTML**." }
+    {
+        "author": "Jesse",
+        "text": "This definitely is a comment."
+    },
+    {
+        "author": "billg",
+        "text": "This is *another* comment. It &lt;justworks&gt;, **even with HTML**."
+    },
+    {
+        "author": "Crazy",
+        "text": "coolbeans"
+    },
+    {
+        "author": "Okay..",
+        "text": "sure"
+    },
+    {
+        "author": "before",
+        "text": "*and* **after** *with* ***MarkDOWN!!***"
+    }
 ]
