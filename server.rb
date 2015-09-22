@@ -22,6 +22,9 @@ server.mount_proc '/comments.json' do |req, res|
   comments = JSON.parse(File.read('./comments.json'))
 
   if req.request_method == 'POST'
+    # Make it slower so optimistic updates make sense.
+    sleep 2
+
     # Assume it's well formed
     comment = {}
     req.query.each do |key, value|

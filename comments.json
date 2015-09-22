@@ -18,5 +18,21 @@
     {
         "author": "before",
         "text": "*and* **after** *with* ***MarkDOWN!!***"
+    },
+    {
+        "author": "me",
+        "text": "me"
+    },
+    {
+        "author": "toronto",
+        "text": "toronto"
+    },
+    {
+        "author": "slower",
+        "text": "slower"
+    },
+    {
+        "author": "faster",
+        "text": "faster"
     }
 ]

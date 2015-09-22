@@ -16,6 +16,12 @@ var CommentBox = React.createClass({
     // note: This is in CommentBox since it is the component responsible
     // for loading data. This would be called, indirectly, by CommentForm.
 
+    // Pre-add the comment to comments, since POST takes some time
+    // (artificially set to 2s for demo purposes)
+    var comments = this.state.data;
+    var newComments = comments.concat([comment]);
+    this.setState({data: newComments});
+
     $.ajax({
       url: this.props.url,
       dataType: 'json',
@@ -115,6 +121,6 @@ var Comment = React.createClass({
 
 
 React.render(
-  <CommentBox url="comments.json" pollInterval="2000" />,
+  <CommentBox url="comments.json" pollInterval="5000" />,
   document.getElementById('content')
 );
